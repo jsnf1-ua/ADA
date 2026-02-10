@@ -36,7 +36,7 @@ fit y(x) "quickSort.CPUtimes" using 1:2 via a,b
 #rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.232939
 
 ##Fit to a cuadratic function: 
-#y(x)=a*x*x + b*x + c
+#y(x)=a*x*log(x) + b*x + c
 #fitFunction="Fitting quickSort time values to f(n) = n²+n+k"
 #fit y(x) "quickSort.CPUtimes" using 1:2 via a,b,c
 #rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 199409

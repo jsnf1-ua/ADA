@@ -12,7 +12,7 @@ quickSort.CPUtimes: quickSort
 	./quickSort > quickSort.CPUtimes
 
 tar: quickSort.cc quickSort.gpi makefile
-	tar cvfz mi_DNI-NIE.tar.gz quickSort.cc quickSort.gpi makefile
+	tar cvfz 70428580G.tar.gz quickSort.cc quickSort.gpi makefile
 
 clean: 
 	rm -f quickSort quickSort.CPUtimes fit.log quickSort*.png *~
